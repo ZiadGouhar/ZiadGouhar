@@ -85,24 +85,6 @@
 
 ---
 
-### 📊 GitHub Activity & Analytics
-
-<div align="center">
-
-  <table border="0">
-    <tr>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ZiadGouhar&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8" alt="Ziad's GitHub Stats" />
-      </td>
-      <td>
-        <img height="180em" src="https://streak-stats.demolab.com/?user=ZiadGouhar&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZiadGouhar&theme=tokyonight&hide_border=true&layout=compact&border_radius=8" alt="Top Languages" />
 
 </div>
 
