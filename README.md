@@ -71,66 +71,27 @@ I'm a Computer Science student at **Mansoura University** specializing in backen
     </td>
   </tr>
 
-  <!-- Project 2: ContactsManagerSolution -->
+ 
+   <!-- Project: Stocks -->
   <tr>
     <td width="100%">
-      <h3>🧪 <a href="https://github.com/ZiadGouhar/ContactsManagerSolution">ContactsManagerSolution — Automated Testing & Architecture</a></h3>
+      <h3>📈 <a href="https://github.com/ZiadGouhar/Stocks">Stocks — Real-Time Stock Trading Platform</a></h3>
       <p>
+        <img src="https://img.shields.io/badge/ASP.NET_Core_MVC-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+        <img src="https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+        <img src="https://img.shields.io/badge/Clean_Architecture-239120?style=flat-square" />
+        <img src="https://img.shields.io/badge/Finnhub_API-005571?style=flat-square" />
         <img src="https://img.shields.io/badge/xUnit-512BD4?style=flat-square" />
-        <img src="https://img.shields.io/badge/Moq-gray?style=flat-square" />
-        <img src="https://img.shields.io/badge/FluentAssertions-orange?style=flat-square" />
-        <img src="https://img.shields.io/badge/Serilog-008080?style=flat-square" />
-        <img src="https://img.shields.io/badge/Clean_Code-success?style=flat-square" />
       </p>
-      <p>An enterprise-structured contacts management application demonstrating production-level testing, diagnostic logging, and modular pipeline design:</p>
+      <p>A full-stack financial trading web application consuming real-time market quotes via external API integration and enforcing strict Clean Architecture principles:</p>
       <ul>
-        <li><b>Comprehensive Automated Testing:</b> Separate test suites for <b>Unit/Service Tests</b> (mocking dependencies with Moq), <b>Controller Tests</b>, and end-to-end <b>Integration Tests</b>.</li>
-        <li><b>Extensible ASP.NET Core Pipeline:</b> Custom action/result filters, custom middleware components, and service collection startup extension methods.</li>
-        <li><b>Observability:</b> Structured logging integration using <b>Serilog</b> with rolling file sinks for contextual diagnostic tracking.</li>
+        <li><b>Clean Architecture & Decoupling:</b> Strict inward dependency flow across <code>Stocks.Core</code>, <code>Stocks.Application</code>, <code>Stocks.Infrastructure</code>, and <code>Stocks.UI</code>.</li>
+        <li><b>External Market Data:</b> Integrated with the <b>Finnhub Stock API</b> using <code>IHttpClientFactory</code> and strongly-typed <code>IOptions&lt;TradingOptions&gt;</code> configuration to stream live stock prices.</li>
+        <li><b>Order Management & Exporting:</b> Placing and executing buy/sell stock orders with comprehensive server-side validation, persisting via EF Core, and exporting transaction reports to <b>PDF and CSV</b>.</li>
+        <li><b>Automated Testing:</b> Isolated service-level unit test coverage in <code>Stocks.Services.Tests</code> utilizing <b>xUnit</b>.</li>
       </ul>
       <p>
-        🔗 <a href="https://github.com/ZiadGouhar/ContactsManagerSolution"><b>View Repository →</b></a>
-      </p>
-    </td>
-  </tr>
-
-  <!-- Project 3: EShopMicroServices -->
-  <tr>
-    <td width="100%">
-      <h3>🛍️ <a href="https://github.com/ZiadGouhar/EShopMicroServices">EShopMicroServices — Cloud-Native Distributed Architecture</a></h3>
-      <p>
-        <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-        <img src="https://img.shields.io/badge/CQRS_%26_MediatR-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/RabbitMQ_%26_MassTransit-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-        <img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      </p>
-      <p>A distributed e-commerce backend built with .NET 8 exploring modern microservice patterns and asynchronous messaging:</p>
-      <ul>
-        <li><b>Architecture Patterns:</b> Vertical Slice Architecture with Feature Folders, CQRS pattern using <b>MediatR</b>, and validation pipeline behaviors with <b>FluentValidation</b>.</li>
-        <li><b>Event-Driven Messaging:</b> Asynchronous communication using <b>RabbitMQ</b> and <b>MassTransit</b> publish-subscribe topics for checkout and order processing.</li>
-        <li><b>Performance & Caching:</b> Distributed caching with <b>Redis</b> (Cache-aside pattern) and high-performance inter-service sync communication via <b>gRPC</b> with Protobuf.</li>
-        <li><b>Data Polyglot:</b> PostgreSQL using Marten Document DB, SQL Server, and SQLite.</li>
-      </ul>
-      <p>
-        🔗 <a href="https://github.com/ZiadGouhar/EShopMicroServices"><b>View Repository →</b></a>
-      </p>
-    </td>
-  </tr>
-
-  <!-- Project 4: IceCity -->
-  <tr>
-    <td width="100%">
-      <h3>❄️ <a href="https://github.com/ZiadGouhar/IceCity">IceCity — SOLID Design & Containerization</a></h3>
-      <p>
-        <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/SOLID_Principles-239120?style=flat-square" />
-      </p>
-      <p>Utility system for heating and usage calculation, focusing on strict object-oriented design, SOLID compliance, decoupled reporting services, and <b>Docker</b> container packaging.</p>
-      <p>
-        🔗 <a href="https://github.com/ZiadGouhar/IceCity"><b>View Repository →</b></a>
+        🔗 <a href="https://github.com/ZiadGouhar/Stocks"><b>View Repository →</b></a>
       </p>
     </td>
   </tr>
@@ -196,33 +157,5 @@ I'm a Computer Science student at **Mansoura University** specializing in backen
 - **Bachelor of Computer Science** — Mansoura University
   - *Focus Areas:* Data Structures, Algorithms, Object-Oriented Programming (OOP), Database Management Systems, Software Engineering, Computer Networks.
 
----
 
-### 📊 GitHub Activity & Analytics
 
-<div align="center">
-
-  <table border="0">
-    <tr>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ZiadGouhar&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8" alt="Ziad's GitHub Stats" />
-      </td>
-      <td>
-        <img height="180em" src="https://streak-stats.demolab.com/?user=ZiadGouhar&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZiadGouhar&theme=tokyonight&hide_border=true&layout=compact&border_radius=8" alt="Top Languages" />
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ZiadGouhar&label=Profile%20Views&color=5C2D91&style=flat-square" alt="Profile Views" />
-  <br/>
-  <sub>Built with purpose • Ready for backend engineering challenges</sub>
-</div>
