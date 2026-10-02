@@ -89,9 +89,3 @@
 </div>
 
 ---
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ZiadGouhar&label=Profile%20Views&color=5C2D91&style=flat-square" alt="Profile Views" />
-  <br/>
-  <sub>Designed with care • Open to opportunities & collaborations</sub>
-</div>
