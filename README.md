@@ -33,13 +33,12 @@
 
 ---
 
-### 💫 About Me
+###  About Me
 
 I'm a Computer Science student at **Mansoura University** specializing in backend engineering within the **.NET ecosystem**. Rather than only building simple CRUD tutorials, I focus on building production-grade software that is maintainable, thoroughly tested, and architecturally sound.
 
-- 🏗️ **Clean Architecture & Design:** I build solutions with strict separation of concerns — isolating Domain logic, Application service contracts, Infrastructure persistence, and Presentation layers.
-- 🧪 **Test-Driven & Quality-Conscious:** Experienced with automated testing using **xUnit, Moq, and FluentAssertions**, writing comprehensive Unit, Service, Controller, and Integration tests.
-- ⚡ **Distributed Systems:** Actively building and studying event-driven microservices with **CQRS, MediatR, RabbitMQ, MassTransit, gRPC, and Redis**.
+-  **Clean Architecture & Design:** I build solutions with strict separation of concerns — isolating Domain logic, Application service contracts, Infrastructure persistence, and Presentation layers.
+-  **Test-Driven & Quality-Conscious:** Experienced with automated testing using **xUnit, Moq, and FluentAssertions**, writing comprehensive Unit, Service, Controller, and Integration tests.
 - 🔍 **Engineering Curiosity:** I dig into the "why" beneath the frameworks — exploring ASP.NET Core internals, custom middleware pipelines, action filters, dependency injection lifetimes, and EF Core query execution plans.
 
 ---
@@ -138,21 +137,20 @@ I'm a Computer Science student at **Mansoura University** specializing in backen
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-- **Messaging & Event-Driven:** Asynchronous communication with **RabbitMQ** and **MassTransit**.
-- **Caching & High Performance:** Distributed caching with **Redis** and binary serialization with **gRPC**.
+- **Caching & High Performance:** Distributed caching with **Redis**.
 - **Containerization:** Packaging .NET applications into lightweight, reproducible **Docker** images.
 
-#### 🗄️ Database & Persistence
+####  Database & Persistence
 ![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 - Relational database schema design, normalization, relationships, and foreign key constraints.
-- Writing queries, stored procedures, and triggers using T-SQL.
+- Writing queries, stored procedures, and triggers using SQL.
 - Schema versioning and reproducible migrations with EF Core.
 
 ---
 
-### 🎓 Education
+###  Education
 
 - **Bachelor of Computer Science** — Mansoura University
   - *Focus Areas:* Data Structures, Algorithms, Object-Oriented Programming (OOP), Database Management Systems, Software Engineering, Computer Networks.
