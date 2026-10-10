@@ -9,7 +9,7 @@
   </a>
 
   <p align="center">
-    <b>Computer Science student building resilient .NET backends with Clean Architecture, automated testing, and distributed services.</b>
+    <b>Computer Science Student | Backend .NET Developer | ASP.NET Core, Clean Architecture, EF Core, xUnit</b>
   </p>
 
   <!-- Connect Badges -->
