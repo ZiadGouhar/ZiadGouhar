@@ -4,9 +4,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=239120,5C2D91,007ACC&height=180&section=header" width="100%" />
 
   <!-- Animated Typing Headline -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=9B51E0&center=true&vCenter=true&random=false&width=750&lines=Hi+there%2C+I'm+Ziad+Gouhar+%F0%9F%91%8B;Aspiring+.NET+Backend+Developer;Clean+Architecture+%E2%80%A2+Microservices+%E2%80%A2+TDD;CS+Student+%40+Mansoura+University;C%23+%E2%80%A2+ASP.NET+Core+%E2%80%A2+EF+Core+%E2%80%A2+SQL+Server" alt="Typing SVG" />
-  </a>
+  
 
   <p align="center">
     <b>Computer Science Student | Backend .NET Developer | ASP.NET Core, Clean Architecture, EF Core, xUnit</b>
